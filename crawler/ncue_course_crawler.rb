@@ -24,7 +24,7 @@ class NcueCourseCrawler
     # 這邊是因為嘉義大學的結果是另一個網頁
     @post_url = "http://webap0.ncue.edu.tw/DEANV2/Other/OB010"
 
-    @after_each_proc = after_each_proc
+    @after_each_proc = after_each
     @update_progress_proc = update_progress
   end
 
